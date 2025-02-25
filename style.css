@@ -1,0 +1,181 @@
+body {
+    background-image: url(img/Design.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbartop {
+    margin-top: 50px;
+}
+
+.navbartop ul li {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+
+}
+
+.navbartop ul li a:hover {
+    color: red;
+
+}
+
+
+.listitem1 {
+    background-color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+.listitem1 a {
+    color: white;
+}
+
+.listitem1:hover {
+    background-color: rgb(170, 0, 0);
+}
+
+.listitem1 a:hover {
+    color: black;
+}
+
+.searchbar {
+    position: relative;
+
+}
+
+.searchbar input {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    width: 300px !important;
+    background-color: rgb(218, 218, 218);
+    outline: none;
+}
+
+
+.searchbar button {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: red;
+    fill: white;
+    border: none;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    color: white;
+}
+
+.searchbar button:hover {
+
+    background-color: rgb(179, 0, 0);
+
+}
+
+.page1con {
+    height: 100%;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80PX;
+}
+
+.page1con img {
+    height: 100%;
+    width: 100%;
+}
+
+.page1con span {
+    font-size: 50px;
+    color: red;
+}
+
+.page1con h2 {
+    font-size: 50px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.page1con p {
+    font-size: 20px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.infobtn {
+    background-color: red;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    color: white;
+    font-size: 15px;
+    border: 2px solid red;
+    margin-right: 20px;
+}
+
+.learnbtn {
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    color: black;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.learnbtn:hover {
+    background-color: red;
+    color: white;
+}
+
+.infobtn:hover {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.youtubebtn{
+    margin-top: 20px;
+}
+.youtubebtn i{
+    color: aquamarine;
+    font-size: 30px;
+}
+
+.youtubebtn i:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.youtubebtn a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.youtubebtn a:hover{
+    
+    color: red;
+    
+}
+
+.socialicon i{
+background-color: red;
+width: 30px;
+text-align: center;
+align-items: center;
+cursor: pointer;
+justify-content: center;
+display: flex;
+height: 30px;
+color: white;
+border-radius: 50%;
+}
+
+.socialicon i:hover{
+color: black;
+}

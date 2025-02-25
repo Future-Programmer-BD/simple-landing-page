@@ -1,0 +1,60 @@
+
+
+
+@media only screen and (max-width:991px){
+.searchbar{
+    display: none !important;
+}
+.container, .container-md, .container-sm {
+    max-width: 920px;
+
+}
+}
+
+
+
+
+@media only screen and (max-width:973px){
+   
+    
+.page1con img {
+    height: 80%;
+    width: 80%;
+
+}
+}
+
+
+
+@media only screen and (max-width:576px){
+
+    .infobtn,.learnbtn {
+        width: 100%;
+        margin: 10px;
+       
+
+    }
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      
+      
+        padding-right:0px;
+        padding-left: 0px;
+       
+    }
+
+    .navbartop{
+        padding-left: 20px;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width:1199px){
+    .learnbtn {
+        margin-right:0px !important;
+    }
+
+}
+
